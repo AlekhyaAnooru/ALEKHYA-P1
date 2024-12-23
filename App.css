@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: #f5f5f5; /* Added a light background color for the entire app */
+  padding: 20px; /* Added padding to create spacing */
+}
+
+.App-logo {
+  height: 30vmin; /* Reduced size for better aesthetics */
+  pointer-events: none;
+  border: 2px solid #61dafb; /* Added a border around the logo */
+  border-radius: 50%; /* Made the logo circular */
+  margin: 20px auto; /* Centered the logo with margin */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear; /* Reduced animation speed */
+  }
+}
+
+.App-header {
+  background-color: #20232a; /* Darkened the background color slightly */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Slightly increased font size */
+  color: #ffffff;
+  padding: 40px; /* Added padding to create space around the content */
+  border-bottom: 5px solid #61dafb; /* Added a stylish border at the bottom */
+}
+
+.App-link {
+  color: #21a1f1; /* Changed the link color for better visibility */
+  text-decoration: none; /* Removed underline from links */
+  font-weight: bold; /* Made the link bold */
+  transition: color 0.3s ease; /* Added a smooth transition effect */
+}
+
+.App-link:hover {
+  color: #0b7dda; /* Changed hover color for the link */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
